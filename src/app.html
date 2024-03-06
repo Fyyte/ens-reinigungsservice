@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<!-- setup plausible script -->
+		<script
+			src="/stats/js/script.js"
+			data-api="/stats/api/event"
+			data-domain="dinweldik.com"
+		></script>
+		<!--- chatwoot -->
+		<script defer>
+			(function (d, t) {
+				var BASE_URL = 'https://chatwoot.dinweldik.com/';
+				var g = d.createElement(t),
+					s = d.getElementsByTagName(t)[0];
+				g.src = BASE_URL + '/packs/js/sdk.js';
+				g.defer = true;
+				g.async = true;
+				s.parentNode.insertBefore(g, s);
+				g.onload = function () {
+					window.chatwootSDK.run({
+						websiteToken: 'MvfrQt69DktrAC8yThqyCryQ',
+						baseUrl: BASE_URL
+					});
+				};
+			})(document, 'script');
+		</script>
+		<!-- END -->
+		<title>dinweldik</title>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-prefetch>
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
