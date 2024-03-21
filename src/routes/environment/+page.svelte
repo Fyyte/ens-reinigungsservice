@@ -1,11 +1,22 @@
 <script>
 	import picnic from '$lib/assets/picnic.png';
 	import trash from '$lib/assets/trash.png';
+	import nature from '$lib/assets/nature.png';
 </script>
 
 <section class="content">
-	<h1>Unser Engagement für den Umweltschutz</h1>
-	<h2>Verantwortungsvolle Reinigung für eine grünere Zukunft</h2>
+	<div class="head">
+		<div>
+			<h1>Unser Engagement für den Umweltschutz</h1>
+			<h2>Verantwortungsvolle Reinigung für eine grünere Zukunft</h2>
+		</div>
+		<img
+			src={nature}
+			alt="Forest"
+			width="350px"
+			style="display: block; margin: auto;padding-top:1rem"
+		/>
+	</div>
 	<p>
 		Bei E.N.S Reinigungsservice e.U. ist uns bewusst, dass unsere Geschäftsaktivitäten Hand in Hand
 		mit der Verantwortung für die Umwelt gehen. Unser Ziel ist es, nicht nur saubere und hygienische
@@ -71,6 +82,23 @@
 </section>
 
 <style lang="postcss">
+	.head {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: var(--size-4);
+
+		& img {
+			border: none;
+		}
+
+		& img:hover {
+			-webkit-transform: scale(1.03);
+			transform: scale(1.03);
+		}
+		@media screen and (max-width: 768px) {
+			grid-template-columns: 1fr;
+		}
+	}
 	img {
 		border: 1px solid #ddd; /* Example border */
 		border-radius: var(--size-2);

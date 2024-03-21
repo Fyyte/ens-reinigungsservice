@@ -13,8 +13,8 @@ module.exports = defineConfig((pollen) => {
 		modules: {
 			width: containerWidths,
 			font: {
-				text: `'Recursive Variable', sans-serif`,
-				display: `'Recursive Variable', sans-serif`,
+				text: `'Comfortaa Variable', sans-serif`,
+				display: `'Comfortaa Variable', sans-serif`,
 				code: `'Roboto Mono', monospace`
 			},
 			size: {

@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/comfortaa": "^5.0.19",
 		"@fontsource-variable/recursive": "^5.0.16",
 		"@fortawesome/free-brands-svg-icons": "^6.5.1",
 		"@fortawesome/free-solid-svg-icons": "^6.5.1",

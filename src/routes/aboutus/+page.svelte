@@ -78,8 +78,8 @@
 		gap: var(--size-4);
 
 		& img:hover {
-			-webkit-transform: scale(1.01);
-			transform: scale(1.01);
+			-webkit-transform: scale(1.03);
+			transform: scale(1.03);
 		}
 		@media screen and (max-width: 768px) {
 			grid-template-columns: 1fr;

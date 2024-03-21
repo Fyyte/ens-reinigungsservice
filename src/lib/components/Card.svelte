@@ -37,6 +37,7 @@
 	.title {
 		text-align: center;
 		font-weight: bold;
+		text-decoration: underline;
 	}
 	a {
 		text-decoration: none;

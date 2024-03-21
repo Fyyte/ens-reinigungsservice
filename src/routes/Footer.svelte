@@ -14,8 +14,11 @@
 		<div class="footer-links">
 			<p><a href="/privacy">Datenschutz</a></p>
 			<p><a href="/legal">Impressum</a></p>
-			<!-- 			<p><a href="mailto:verein@fussballwoelfe.at">Kontakt</a></p> -->
 		</div>
+		<!-- 		<div class="footer-links">
+			<p><a href="/privacy">Datenschutz</a></p>
+			<p><a href="/legal">Impressum</a></p>
+		</div> -->
 		<div class="logo">
 			<img src={logo} alt="logo" />
 			<img src={meister} alt="meister" />

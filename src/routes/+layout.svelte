@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '@fontsource-variable/recursive';
+	import '@fontsource-variable/comfortaa';
 	import { navigating } from '$app/stores';
 	import Footer from './Footer.svelte';
 	import Header from './Header.svelte';
