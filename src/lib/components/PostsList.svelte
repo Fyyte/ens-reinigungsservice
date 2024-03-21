@@ -9,9 +9,9 @@
 	{#each posts as post}
 		<article class="post-grid">
 			<PostPreview {post}>
-				<slot slot="eyebrow">
+				<!-- 			<slot slot="eyebrow">
 					<PostDate {post} />
-				</slot>
+				</slot> -->
 			</PostPreview>
 		</article>
 	{/each}

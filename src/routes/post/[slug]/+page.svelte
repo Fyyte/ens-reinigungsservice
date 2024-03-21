@@ -58,7 +58,7 @@
 			<h1 class="post-title">
 				{data.post.title}
 			</h1>
-			<PostDate post={data.post} />
+			<!-- 			<PostDate post={data.post} /> -->
 		</header>
 
 		<!-- render the post -->
@@ -99,6 +99,7 @@
 		font-size: 2.25rem; /* text-4xl */
 		font-weight: bold; /* font-bold */
 		letter-spacing: -0.025em; /* tracking-tight */
+		text-align: center;
 	}
 
 	.post-date {

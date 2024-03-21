@@ -72,16 +72,8 @@ module.exports = defineConfig((pollen) => {
 				black: '#10181C',
 
 				primary: 'var(--color-primary-500)',
-				'primary-50': 'hsl(140, 69%, 95%)',
-				'primary-100': 'hsl(139, 69%, 90%)',
-				'primary-200': 'hsl(139, 66%, 85%)',
-				'primary-300': 'hsl(141, 70%, 72%)',
-				'primary-400': 'hsl(143, 62%, 57%)',
-				'primary-500': '#ffaaaa',
-				'primary-600': 'hsl(143, 100%, 31%)',
-				'primary-700': 'hsl(155, 100%, 23%)',
-				'primary-800': 'hsl(166, 100%, 17%)',
-				'primary-900': 'hsl(169, 100%, 12%)',
+				'primary-500': '#385492',
+				'primary-0': '#79C7C8',
 
 				yellow: 'var(--color-purple-500)',
 				'yellow-50': 'hsl(52, 100%, 95%)',

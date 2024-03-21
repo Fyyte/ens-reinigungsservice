@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let productInfo = {
-		name: 'dinweldik',
-		description: 'fail fast'
+		name: 'E.N.S Reinigungsservice',
+		description: 'einfach nur sauber'
 	};
 	import logo from '$lib/assets/logo.png';
 </script>
@@ -73,5 +73,7 @@
 
 	.description {
 		font: var(--text-lg);
+		color: var(--color-primary-0);
+		font-weight: bold;
 	}
 </style>

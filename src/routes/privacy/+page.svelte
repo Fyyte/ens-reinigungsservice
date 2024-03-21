@@ -1,54 +1,76 @@
 <section class="content">
-	<h1>GDPR Policy</h1>
+	<h1>Datenschutzerklärung</h1>
 	<p>
-		<a href="https://dinweldik.com">dinweldik e.U</a>, is committed to protecting the privacy and
-		security of your personal data. This GDPR policy explains how we collect, use, and share your
-		personal data when you use our website and any software products we offer.
+		<a href="https://ens-reinigungsservice.at">E.N.S Reinigungsservice e.U.</a>, verpflichtet sich
+		zum Schutz der Privatsphäre und Sicherheit Ihrer persönlichen Daten. Diese Datenschutzerklärung
+		erklärt, wie wir Ihre personenbezogenen Daten sammeln, verwenden und teilen, wenn Sie unsere
+		Website nutzen.
 	</p>
-	<h2>Personal Data We Collect</h2>
+	<h2>Welche persönlichen Daten wir sammeln</h2>
 	<p>
-		We use <a href="https://plausible.io">plausible.io</a> to track web traffic on our website, and we
-		use Google for authentication purposes.
+		Wir nutzen <a href="https://plausible.io">plausible.io</a> zur Nachverfolgung des Webverkehrs auf
+		unserer Website. Für Authentifizierungszwecke setzen wir auf Dienste von Google.
 	</p>
-	<h2>How We Use Your Personal Data</h2>
+	<h2>Wie wir Ihre persönlichen Daten verwenden</h2>
 	<p>
-		We use the personal data we collect to provide and improve our website and software products, to
-		communicate with you, and to fulfill any orders or requests you may have. We may also use your
-		personal data for research and analytics purposes, or to personalize your experience on our
-		website.
+		Wir verwenden die gesammelten personenbezogenen Daten, um unsere Website und unsere
+		Dienstleistungen zu bieten und zu verbessern, mit Ihnen zu kommunizieren und Ihre Bestellungen
+		oder Anfragen zu bearbeiten. Ihre Daten können auch für Forschungs- und Analysezwecke oder zur
+		Personalisierung Ihres Erlebnisses auf unserer Website verwendet werden.
 	</p>
-	<h2>Sharing Your Personal Data</h2>
+	<h2>Teilen Ihrer persönlichen Daten</h2>
 	<p>
-		We may share your personal data with third parties in certain circumstances, such as with
-		service providers who help us operate our business or with law enforcement agencies if required
-		by law. We will only share your personal data with your consent or as necessary to fulfill a
-		request or transaction initiated by you.
+		In bestimmten Fällen können wir Ihre personenbezogenen Daten mit Dritten teilen, wie mit
+		Dienstleistern, die uns beim Betrieb unseres Unternehmens unterstützen, oder mit
+		Strafverfolgungsbehörden, wenn dies gesetzlich erforderlich ist. Wir werden Ihre
+		personenbezogenen Daten nur mit Ihrer Zustimmung oder soweit notwendig teilen, um eine von Ihnen
+		initiierte Anfrage oder Transaktion zu erfüllen.
 	</p>
-	<h2>Data Security</h2>
+	<h2>Datensicherheit</h2>
 	<p>
-		We take reasonable precautions to protect your personal data from loss, misuse, and unauthorized
-		access, disclosure, alteration, or destruction. However, no website or internet transmission is
-		completely secure, and we cannot guarantee the security of your personal data. You are
-		responsible for keeping your account login information confidential.
+		Wir ergreifen angemessene Vorkehrungen, um Ihre personenbezogenen Daten vor Verlust, Missbrauch
+		und unbefugtem Zugriff, Offenlegung, Änderung oder Zerstörung zu schützen. Dennoch ist keine
+		Website oder Internetübertragung vollständig sicher, und wir können die Sicherheit Ihrer Daten
+		nicht garantieren. Sie sind selbst für die Geheimhaltung Ihrer Kontologin-Informationen
+		verantwortlich.
 	</p>
-	<h2>Your Rights Under GDPR</h2>
+	<h2>Ihre Rechte unter der DSGVO</h2>
 	<p>
-		Under GDPR, you have the right to request access to, rectification of, or erasure of your
-		personal data; to object to the processing of your personal data; and to request data
-		portability. You also have the right to withdraw your consent to the processing of your personal
-		data at any time. To exercise these rights, or if you have any questions about our GDPR policy,
-		please contact us at
-		<a href="mailto:info@dinweldik.com">info@dinweldik.com</a>.
+		Unter der DSGVO haben Sie das Recht, Zugang zu Ihren personenbezogenen Daten zu beantragen,
+		deren Berichtigung, Löschung oder Einschränkung der Verarbeitung zu verlangen sowie der
+		Verarbeitung zu widersprechen und die Datenübertragbarkeit zu beantragen. Sie haben auch das
+		Recht, Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten jederzeit zu widerrufen.
+		Um diese Rechte auszuüben oder wenn Sie Fragen zu unserer Datenschutzerklärung haben,
+		kontaktieren Sie uns bitte unter
+		<a href="mailto:office@ens-reinigungsservice.at">office@ens-reinigungsservice.at</a>.
 	</p>
-	<h2>Changes to Our GDPR Policy</h2>
+	<h2>Änderungen an unserer Datenschutzerklärung</h2>
 	<p>
-		We may update our GDPR policy from time to time. Any changes will be reflected on this page, and
-		we encourage you to review our GDPR policy periodically for the most up-to-date information.
+		Wir können unsere Datenschutzerklärung von Zeit zu Zeit aktualisieren. Alle Änderungen werden
+		auf dieser Seite veröffentlicht, und wir empfehlen Ihnen, unsere Datenschutzerklärung regelmäßig
+		zu überprüfen, um die aktuellsten Informationen zu erhalten.
 	</p>
 </section>
 
 <style lang="postcss">
 	a {
+		color: var(--color-primary-0);
+	}
+
+	.content {
+		font: var(--text-lg);
+	}
+
+	h1 {
+		margin-block: var(--size-8);
 		color: var(--color-primary);
+		font-weight: bold;
+		text-align: center;
+	}
+
+	h2 {
+		margin-block: var(--size-4);
+		color: var(--color-primary);
+		font-weight: bold;
 	}
 </style>

@@ -21,17 +21,14 @@
 		{/if} 
 	</div> -->
 	<Hero />
-	<!-- 		<nav>
+	<nav>
 		<ul>
-		{#if user}
-				<li><a href="/lists">📒 My lists</a></li>
-				<li><a href="/notes">📝 Notes</a></li>
-				<li><a href="/settings">⚙️ Settings</a></li>
-			{:else}
-				<li><a href="/login">🚪 Sign Up to create your own private lists</a></li>
-			{/if} 
+			<li><a href="/">Startseite</a></li>
+			<li><a href="/aboutus">Über uns</a></li>
+			<!-- 			<li><a href="/fotos">Fotos</a></li> -->
+			<!-- <li><a href="/team">Team</a></li> -->
 		</ul>
-	</nav> -->
+	</nav>
 </header>
 
 <style lang="postcss">
@@ -114,14 +111,17 @@
 
 	nav {
 		padding: var(--size-4) var(--size-content-px);
+		background: #f9f9f9; /* Example background color */
+		border: 1px solid #ddd; /* Example border */
+		border-radius: var(--size-2);
 		& ul {
 			list-style: none;
 			padding: 0;
 			margin: 0;
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: flex-start;
-			gap: var(--size-4);
+			justify-content: center;
+			gap: var(--size-8);
 			& a {
 				font-size: var(--scale-1);
 				color: var(--color-primary-500);

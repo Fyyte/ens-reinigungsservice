@@ -9,55 +9,38 @@
 </script>
 
 <section class="content">
-	<ul class="text-cards">
-		<li>
+	<div class="text-cards">
+		<article>
+			<h2>Für ein makellos sauberes Büro</h2>
 			<p>
-				<strong>Tailored to Your Needs</strong> Recognizing the uniqueness of every business, customized
-				web solutions are designed to meet specific requirements. An online presence should mirror the
-				brand identity and goals, ensuring it precisely represents what the business stands for.
+				E.N.S bietet umfassende Büroreinigung in Wien, gewährleistet durch unser Team von
+				Reinigungsexperten. Wir legen Wert auf umweltschonende Mittel und maßgeschneiderte Lösungen,
+				die sich nach Ihren Bedürfnissen richten, um das Wohlbefinden Ihrer Kunden und Mitarbeiter
+				zu fördern.
 			</p>
-		</li>
-		<li>
+		</article>
+		<article>
+			<h2>Professionelle Pflege für Ihren Arbeitsplatz</h2>
 			<p>
-				<strong>Engage Your Audience Everywhere</strong> Websites and applications adapt seamlessly to
-				any device, whether it be desktops, tablets, or smartphones. Providing a consistent and enjoyable
-				user experience across all platforms is essential for engaging and retaining the audience.
+				Unser Angebot umfasst Teppich-, Möbel- und Parkettbodenreinigung mit größter Sorgfalt, um
+				den Wert Ihrer Ausstattung zu erhalten. Wir bieten Ihnen eine kosteneffiziente Lösung für
+				eine professionelle Büroumgebung.
 			</p>
-		</li>
-		<li>
+		</article>
+		<article>
+			<h2>Ihr Komplettservice für Büroreinigung in Wien</h2>
 			<p>
-				<strong>Expertise and Support</strong> The journey to success is a partnership, with a team of
-				experts offering guidance and support at every step. From the initial concept to launch and beyond,
-				ensuring the success of projects with experienced insights and assistance.
+				Von der Teppichreinigung bis zur Entrümpelung - unser umfassender Service deckt alle Aspekte
+				der Büroreinigung ab. Flexibilität und Streben nach höchster Qualität garantieren Ihre
+				Zufriedenheit.
 			</p>
-		</li>
-		<li>
-			<p>
-				<strong>Transparent and Affordable Pricing</strong>
-				Top-notch web solutions are accessible without a hefty price tag. A commitment to transparent
-				and affordable pricing options guarantees no compromise on quality. Outstanding value for the
-				investment allows for an online presence to flourish, all while keeping the budget intact.
-			</p>
-		</li>
-	</ul>
+		</article>
+	</div>
 
-	<h1>Blog Posts</h1>
+	<h1>Unsere Dienstleistungen</h1>
 
 	<div class="posts-section">
 		<PostsList posts={data.posts} />
-	</div>
-
-	<!-- pagination -->
-	<div class="pagination">
-		{#if !isFirstPage}
-			<a href={`/posts/${data.page - 1}`} data-sveltekit-prefetch class="link">Previous</a>
-		{:else}
-			<div />
-		{/if}
-
-		{#if hasNextPage}
-			<a href={`/posts/${data.page + 1}`} data-sveltekit-prefetch class="link">Next</a>
-		{/if}
 	</div>
 </section>
 
@@ -65,50 +48,43 @@
 	.content {
 		font: var(--text-lg);
 	}
+
 	h1 {
-		margin-block: var(--size-6);
+		margin-block: var(--size-8);
+		color: var(--color-primary);
+		font-weight: bold;
 	}
 
-	.pagination {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		padding-top: 4rem; /* pt-16 */
-		padding-bottom: 2rem; /* pb-8 */
-	}
-
-	.link {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		font-weight: 500;
-		color: #3b82f6;
+	h2 {
+		margin-block: var(--size-4);
+		color: var(--color-primary);
+		font-weight: bold;
 	}
 
 	.text-cards {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr); /* Two columns by default */
-		gap: var(--size-12);
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--size-4);
 		margin: 0;
 		padding: 0;
-		list-style: none;
 	}
 
-	.text-cards li {
-		/*  border: 1px solid #ddd;  */
+	.text-cards article {
+		background: #f9f9f9;
+		border: 1px solid #ddd;
+		padding: var(--size-4);
 		border-radius: var(--size-2);
-	}
-
-	.text-cards li strong {
-		display: block;
-		font-size: 1.2em; /* Larger font size for the title */
-		margin-bottom: var(--size-2); /* Space below the title */
-		color: var(--color-primary); /* Title color */
+		flex-grow: 1;
+		flex-basis: calc(50% - var(--size-2)); /* Adjust basis for gap */
 	}
 
 	@media only screen and (max-width: 600px) {
 		.text-cards {
-			grid-template-columns: 1fr; /* One column on mobile */
+			flex-direction: column;
+		}
+
+		.text-cards article {
+			flex-basis: 100%;
 		}
 	}
 </style>
