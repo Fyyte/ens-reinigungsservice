@@ -30,6 +30,10 @@
 </svelte:element>
 
 <style>
+	.img:hover {
+		-webkit-transform: scale(1.01);
+		transform: scale(1.01);
+	}
 	.title {
 		text-align: center;
 		font-weight: bold;

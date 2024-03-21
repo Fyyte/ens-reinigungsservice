@@ -34,8 +34,6 @@
 		}
 
 		@media (max-width: 768px) {
-			-ms-flex-align: start;
-			align-items: flex-start;
 			margin-top: 32px;
 			margin-bottom: 16px;
 		}
@@ -65,6 +63,9 @@
 
 	.name {
 		margin: 0;
+		@media (max-width: 768px) {
+			font-size: var(--text-sm);
+		}
 	}
 
 	a {

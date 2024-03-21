@@ -10,7 +10,7 @@
 
 <section class="content">
 	<header class="header">
-		<h1 class="title">Blog Posts</h1>
+		<h1 class="title">Unsere Dienstleistungen</h1>
 	</header>
 
 	<div class="posts-section">
