@@ -15,7 +15,7 @@
 
 	<h2>Unsere umweltfreundlichen Praktiken:</h2>
 	<ul class="text-cards">
-		<li>
+		<li class="text-box">
 			<p>
 				<strong>Einsatz umweltfreundlicher Reinigungsmittel</strong> Wir wählen unsere Reinigungsprodukte
 				sorgfältig aus und bevorzugen Lösungen, die sowohl effektiv als auch umweltverträglich sind.
@@ -23,7 +23,7 @@
 				biologisch abbaubaren Inhaltsstoffen.
 			</p>
 		</li>
-		<li>
+		<li class="text-box">
 			<p>
 				<strong>Wassersparende Reinigungstechniken</strong> Wasser ist eine kostbare Ressource, und wir
 				setzen innovative Reinigungsmethoden ein, die den Wasserverbrauch minimieren. Durch effiziente
@@ -31,6 +31,12 @@
 			</p>
 		</li>
 		<li>
+			<img src={trash} alt="recycling" />
+		</li>
+		<li>
+			<img src={picnic} alt="picnic" />
+		</li>
+		<li class="text-box">
 			<p>
 				<strong>Recycling und Abfallmanagement</strong> Wir legen großen Wert auf die Reduzierung von
 				Abfällen und fördern aktives Recycling sowohl intern als auch bei unseren Kunden. Unser Ziel
@@ -38,7 +44,7 @@
 				für die Mülltrennung anzubieten.
 			</p>
 		</li>
-		<li>
+		<li class="text-box">
 			<p>
 				<strong>Bildung und Sensibilisierung</strong> Ein wichtiger Teil unseres Engagements ist die
 				Aufklärung unseres Teams und unserer Kunden über Umweltschutzpraktiken. Durch regelmäßige Schulungen
@@ -62,36 +68,24 @@
 			>
 		</p>
 	</div>
-	<div class="images">
-		<img src={trash} alt="recycling" />
-		<img src={picnic} alt="picnic" />
-	</div>
 </section>
 
 <style lang="postcss">
-	.images {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: var(--size-4);
-
-		& img {
-			border: 1px solid #ddd; /* Example border */
-			border-radius: var(--size-2);
-		}
-
-		& img:hover {
-			-webkit-transform: scale(1.01);
-			transform: scale(1.01);
-		}
-		@media screen and (max-width: 768px) {
-			grid-template-columns: 1fr;
-		}
+	img {
+		border: 1px solid #ddd; /* Example border */
+		border-radius: var(--size-2);
 	}
+	img:hover {
+		-webkit-transform: scale(1.01);
+		transform: scale(1.01);
+	}
+
 	strong {
 		color: var(--color-primary);
 	}
 	p {
 		margin-block: var(--size-12);
+		padding: var(--size-4);
 	}
 
 	.text-cards {
@@ -107,10 +101,9 @@
 		}
 	}
 
-	.text-cards li {
+	.text-box {
 		background: #f9f9f9; /* Example background color */
 		border: 1px solid #ddd; /* Example border */
-		padding: var(--size-4);
 		border-radius: var(--size-2);
 	}
 

@@ -11,25 +11,18 @@
 			data-domain="ens-reinigung.at"
 		></script>
 		<!--- chatwoot TODO -->
-		<script defer>
-			(function (d, t) {
-				var BASE_URL = 'https://chatwoot.dinweldik.com/';
-				var g = d.createElement(t),
-					s = d.getElementsByTagName(t)[0];
-				g.src = BASE_URL + '/packs/js/sdk.js';
-				g.defer = true;
-				g.async = true;
-				s.parentNode.insertBefore(g, s);
-				g.onload = function () {
-					window.chatwootSDK.run({
-						websiteToken: 'MvfrQt69DktrAC8yThqyCryQ',
-						baseUrl: BASE_URL
-					});
-				};
-			})(document, 'script');
+		<script type="text/javascript" defer>
+			window.$crisp = [];
+			window.CRISP_WEBSITE_ID = 'e14611a9-d51e-4021-bc66-f49e683fe69e';
+			(function () {
+				d = document;
+				s = d.createElement('script');
+				s.src = 'https://client.crisp.chat/l.js';
+				s.async = 1;
+				d.getElementsByTagName('head')[0].appendChild(s);
+			})();
 		</script>
 		<!-- END -->
-		  
 		<title>E.N.S Reinigungsservice</title>
 		%sveltekit.head%
 	</head>

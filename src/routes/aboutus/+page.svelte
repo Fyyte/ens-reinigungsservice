@@ -1,10 +1,20 @@
 <script>
-	import team from '$lib/assets/team.png';
+	import hero from '$lib/assets/hero.png';
 </script>
 
 <section class="content">
-	<h1>Über E.N.S Reinigungsservice e.U.</h1>
-	<h2>Wo Qualität und Vertrauen Hand in Hand gehen</h2>
+	<div class="head">
+		<div>
+			<h1>Über E.N.S Reinigungsservice</h1>
+			<h2>Wo Qualität und Vertrauen Hand in Hand gehen</h2>
+		</div>
+		<img
+			src={hero}
+			alt="Büroreinigung"
+			width="350px"
+			style="display: block; margin: auto;padding-top:1rem"
+		/>
+	</div>
 	<p>
 		E.N.S Reinigungsservice e.U. steht für herausragende Reinigungsleistungen mit einem persönlichen
 		Touch. Wir sind nicht nur ein Unternehmen, sondern eine Familie, die sich durch ihre
@@ -59,23 +69,13 @@
 			>
 		</p>
 	</div>
-
-	<div class="images">
-		<img src={team} alt="Ein Bild, das den Geist von E.N.S Reinigungsservice e.U. einfängt" />
-		<img src={team} alt="Ein Bild, das den Geist von E.N.S Reinigungsservice e.U. einfängt" />
-	</div>
 </section>
 
 <style lang="postcss">
-	.images {
+	.head {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: var(--size-4);
-
-		& img {
-			border: 1px solid #ddd; /* Example border */
-			border-radius: var(--size-2);
-		}
 
 		& img:hover {
 			-webkit-transform: scale(1.01);

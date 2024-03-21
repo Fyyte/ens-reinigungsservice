@@ -1,5 +1,6 @@
 <script>
 	import PostsList from '$lib/components/PostsList.svelte';
+	import hero from '$lib/assets/hero.png';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
@@ -19,6 +20,7 @@
 				zu fördern.
 			</p>
 		</article>
+
 		<article>
 			<h2>Professionelle Pflege für Ihren Arbeitsplatz</h2>
 			<p>
