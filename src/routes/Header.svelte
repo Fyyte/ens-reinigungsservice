@@ -25,6 +25,8 @@
 		<ul>
 			<li><a href="/">Startseite</a></li>
 			<li><a href="/aboutus">Über uns</a></li>
+			<li><a href="/environment">Umweltschutz</a></li>
+			<li><a href="/jobs">Karriere</a></li>
 			<!-- 			<li><a href="/fotos">Fotos</a></li> -->
 			<!-- <li><a href="/team">Team</a></li> -->
 		</ul>
