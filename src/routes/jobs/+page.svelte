@@ -5,7 +5,7 @@
 <section class="content">
 	<h1>Werden Sie Teil unseres Teams</h1>
 	<p>
-		Bei E.N.S Reinigungsservice e.U. wächst unser Kundenstamm stetig, und um diesen wachsenden
+		Bei ENS Reinigungsservice e.U. wächst unser Kundenstamm stetig, und um diesen wachsenden
 		Anforderungen gerecht zu werden, sind wir auf der Suche nach zuverlässigen und engagierten
 		Mitarbeitern. Uns ist es wichtig, dass unser Team nicht nur aus Fachkräften besteht, sondern
 		auch aus Menschen, die mit Leidenschaft bei der Sache sind.
@@ -23,10 +23,6 @@
 		darauf, Sie kennenzulernen. Einzelheiten zu offenen Positionen und dem Bewerbungsverfahren
 		besprechen wir gerne in einem persönlichen Gespräch.
 	</p>
-	<!-- 	<div class="images">
-		<img src={jobs} alt="Ein Bild, das den Geist von E.N.S Reinigungsservice e.U. einfängt" />
-		<img src={jobs} alt="Ein Bild, das den Geist von E.N.S Reinigungsservice e.U. einfängt" />
-	</div> -->
 	<p>Sind Sie bereit, mit einem Lächeln zu uns zu stoßen? Wir freuen uns auf Ihre Bewerbung!</p>
 </section>
 

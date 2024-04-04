@@ -1,8 +1,8 @@
 <section class="content">
 	<h1>Datenschutzerklärung</h1>
 	<p>
-		<a href="https://ens-reinigungsservice.at">E.N.S Reinigungsservice e.U.</a>, verpflichtet sich
-		zum Schutz der Privatsphäre und Sicherheit Ihrer persönlichen Daten. Diese Datenschutzerklärung
+		<a href="https://ens-reinigungsservice.at">ENS Reinigungsservice e.U.</a>, verpflichtet sich zum
+		Schutz der Privatsphäre und Sicherheit Ihrer persönlichen Daten. Diese Datenschutzerklärung
 		erklärt, wie wir Ihre personenbezogenen Daten sammeln, verwenden und teilen, wenn Sie unsere
 		Website nutzen.
 	</p>

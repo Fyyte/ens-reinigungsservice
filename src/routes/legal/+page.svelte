@@ -1,7 +1,7 @@
 <section class="content">
 	<h1>Impressum</h1>
 	<p>Diese Website wird betrieben von:</p>
-	<h2>E.N.S Reinigungsservice e.U.</h2>
+	<h2>ENS Reinigungsservice e.U.</h2>
 	<p>Inhaber: [Vollständiger Name des Inhabers]</p>
 	<p>
 		Adresse: [Vollständige Adresse]<br />

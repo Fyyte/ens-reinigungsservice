@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let productInfo = {
-		name: 'E.N.S Reinigungsservice',
+		name: 'ENS Reinigungsservice',
 		description: 'einfach nur sauber'
 	};
 	import logo from '$lib/assets/logo.png';

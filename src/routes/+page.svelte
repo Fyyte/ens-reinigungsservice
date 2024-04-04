@@ -23,7 +23,7 @@
 		/>
 	</div>
 	<p>
-		E.N.S bietet umfassende Büroreinigung in Wien, gewährleistet durch unser Team von
+		ENS bietet umfassende Büroreinigung in Wien, gewährleistet durch unser Team von
 		Reinigungsexperten. Wir legen Wert auf umweltschonende Mittel und maßgeschneiderte Lösungen, die
 		sich nach Ihren Bedürfnissen richten, um das Wohlbefinden Ihrer Kunden und Mitarbeiter zu
 		fördern.

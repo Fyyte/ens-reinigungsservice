@@ -5,7 +5,7 @@
 <section class="content">
 	<div class="head">
 		<div>
-			<h1>Über E.N.S Reinigungsservice</h1>
+			<h1>Über ENS Reinigungsservice</h1>
 			<h2>Wo Qualität und Vertrauen Hand in Hand gehen</h2>
 		</div>
 		<img
@@ -16,7 +16,7 @@
 		/>
 	</div>
 	<p>
-		E.N.S Reinigungsservice e.U. steht für herausragende Reinigungsleistungen mit einem persönlichen
+		ENS Reinigungsservice e.U. steht für herausragende Reinigungsleistungen mit einem persönlichen
 		Touch. Wir sind nicht nur ein Unternehmen, sondern eine Familie, die sich durch ihre
 		Leidenschaft für Sauberkeit und das Wohl ihrer Kunden auszeichnet. Unsere Mission ist es, Ihnen
 		nicht nur saubere Räume, sondern ein reines Wohlbefinden zu garantieren.
@@ -33,9 +33,9 @@
 		</li>
 		<li>
 			<p>
-				<strong>Kundenorientierter Service</strong> Bei E.N.S Reinigungsservice e.U. steht der Kunde
-				im Mittelpunkt. Wir hören zu, passen uns Ihren Bedürfnissen an und stellen sicher, dass jede
-				Dienstleistung Ihre individuellen Anforderungen erfüllt.
+				<strong>Kundenorientierter Service</strong> Bei ENS Reinigungsservice e.U. steht der Kunde im
+				Mittelpunkt. Wir hören zu, passen uns Ihren Bedürfnissen an und stellen sicher, dass jede Dienstleistung
+				Ihre individuellen Anforderungen erfüllt.
 			</p>
 		</li>
 		<li>
@@ -64,7 +64,7 @@
 		</p>
 		<p>
 			<strong
-				>Schließen Sie sich der E.N.S-Familie an und erleben Sie den Unterschied, den ein
+				>Schließen Sie sich der ENS-Familie an und erleben Sie den Unterschied, den ein
 				professioneller Reinigungsservice mit Herz machen kann.</strong
 			>
 		</p>

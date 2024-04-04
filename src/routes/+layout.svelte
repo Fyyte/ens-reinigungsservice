@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '@fontsource-variable/comfortaa';
+	import '@fontsource-variable/montserrat';
 	import { navigating } from '$app/stores';
 	import Footer from './Footer.svelte';
 	import Header from './Header.svelte';

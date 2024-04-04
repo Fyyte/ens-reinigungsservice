@@ -18,7 +18,7 @@
 		/>
 	</div>
 	<p>
-		Bei E.N.S Reinigungsservice e.U. ist uns bewusst, dass unsere Geschäftsaktivitäten Hand in Hand
+		Bei ENS Reinigungsservice e.U. ist uns bewusst, dass unsere Geschäftsaktivitäten Hand in Hand
 		mit der Verantwortung für die Umwelt gehen. Unser Ziel ist es, nicht nur saubere und hygienische
 		Räumlichkeiten zu schaffen, sondern auch unseren Teil zum Schutz unseres Planeten beizutragen.
 		Wir glauben fest daran, dass jeder Schritt hin zu mehr Nachhaltigkeit zählt.
@@ -74,8 +74,8 @@
 		</p>
 		<p>
 			<strong
-				>Entdecken Sie, wie E.N.S Reinigungsservice e.U. den Unterschied macht – für saubere Räume
-				und eine saubere Umwelt.</strong
+				>Entdecken Sie, wie ENS Reinigungsservice e.U. den Unterschied macht – für saubere Räume und
+				eine saubere Umwelt.</strong
 			>
 		</p>
 	</div>

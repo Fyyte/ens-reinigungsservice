@@ -13,8 +13,8 @@ module.exports = defineConfig((pollen) => {
 		modules: {
 			width: containerWidths,
 			font: {
-				text: `'Comfortaa Variable', sans-serif`,
-				display: `'Comfortaa Variable', sans-serif`,
+				text: `'Montserrat Variable', sans-serif`,
+				display: `'Montserrat Variable', sans-serif`,
 				code: `'Roboto Mono', monospace`
 			},
 			size: {
