@@ -1,10 +1,10 @@
 <section class="content">
 	<h1>Datenschutzerklärung</h1>
 	<p>
-		<a href="https://ens-reinigungsservice.at">ENS Reinigungsservice e.U.</a>, verpflichtet sich zum
-		Schutz der Privatsphäre und Sicherheit Ihrer persönlichen Daten. Diese Datenschutzerklärung
-		erklärt, wie wir Ihre personenbezogenen Daten sammeln, verwenden und teilen, wenn Sie unsere
-		Website nutzen.
+		<a href="https://ens-reinigung.at">ENS Reinigungsservice e.U.</a>, verpflichtet sich zum Schutz
+		der Privatsphäre und Sicherheit Ihrer persönlichen Daten. Diese Datenschutzerklärung erklärt,
+		wie wir Ihre personenbezogenen Daten sammeln, verwenden und teilen, wenn Sie unsere Website
+		nutzen.
 	</p>
 	<h2>Welche persönlichen Daten wir sammeln</h2>
 	<p>
@@ -42,7 +42,7 @@
 		Recht, Ihre Einwilligung zur Verarbeitung Ihrer personenbezogenen Daten jederzeit zu widerrufen.
 		Um diese Rechte auszuüben oder wenn Sie Fragen zu unserer Datenschutzerklärung haben,
 		kontaktieren Sie uns bitte unter
-		<a href="mailto:office@ens-reinigungsservice.at">office@ens-reinigungsservice.at</a>.
+		<a href="mailto:office@ens-reinigung.at">office@ens-reinigung.at</a>.
 	</p>
 	<h2>Änderungen an unserer Datenschutzerklärung</h2>
 	<p>

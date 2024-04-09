@@ -1,25 +1,21 @@
 <section class="content">
 	<h1>Impressum</h1>
-	<p>Diese Website wird betrieben von:</p>
 	<h2>ENS Reinigungsservice e.U.</h2>
-	<p>Inhaber: [Vollständiger Name des Inhabers]</p>
+	<p>Inhaber: Zoran Andelkovic</p>
 	<p>
-		Adresse: [Vollständige Adresse]<br />
-		[Postleitzahl], [Stadt], [Land]
+		Adresse: Schillerstraße 19/9/1<br />
+		2351 Wiener Neudorf
 	</p>
 	<p>
-		E-Mail: <a href="mailto:info@ens-reinigungsservice.com">info@ens-reinigungsservice.com</a>
+		E-Mail: <a href="mailto:office@ens-reinigung.at">office@ens-reinigung.at</a>
 	</p>
-	<p>Telefon: [Telefonnummer]</p>
+	<p>Telefon: +43 676 7898465</p>
 	<h2>Handelsregistereintrag</h2>
-	<p>[Name des Handelsregisters]: [Nummer des Handelsregistereintrags]</p>
+	<p>Landesgericht Wiener Neustadt: Firmenbuchnummer: FN 621882h</p>
 	<h2>Umsatzsteuer-ID</h2>
-	<p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: [USt-ID Nummer]</p>
+	<p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: ATU80403458</p>
 	<h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
-	<p>
-		[Name des Verantwortlichen]<br />
-		[Adresse des Verantwortlichen]
-	</p>
+	<p>Zoran Andelkovic</p>
 	<h2>Haftungsausschluss</h2>
 	<p>
 		Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer

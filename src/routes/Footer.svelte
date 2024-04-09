@@ -7,9 +7,9 @@
 	<div class="footer-container">
 		<div class="footer-contact">
 			<p class="bold">ENS Reinigungsservice e.U</p>
-			<p>Geschäftsführer: Zoran</p>
+			<p>Geschäftsführer: Zoran Andelkovic</p>
 			<p>Email: <a href="mailto:office@ens-reinigung.at">office@ens-reinigung.at</a></p>
-			<p>Telefon: +43 TODO</p>
+			<p>Telefon: +43 676 7898465</p>
 		</div>
 		<div class="footer-links">
 			<p><a href="/privacy">Datenschutz</a></p>
