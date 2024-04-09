@@ -2,7 +2,7 @@
 	export let noStyle = false;
 </script>
 
-<div class={noStyle ? '' : 'style'}>⏳</div>
+<div class={noStyle ? '' : 'style'}>🧹</div>
 
 <style lang="postcss">
 	div {
@@ -18,8 +18,8 @@
 		0% {
 			transform: rotate(0deg);
 		}
-		100% {
-			transform: rotate(360deg);
+		30% {
+			transform: rotate(-90deg);
 		}
 	}
 </style>
