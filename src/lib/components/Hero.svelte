@@ -19,7 +19,20 @@
 </section>
 
 <style lang="postcss">
+	section {
+		background-image: url('$lib/assets/hero_bg.webp');
+		background-size: cover;
+	}
 	.header {
+		text-shadow:
+			1px 1px 2px black,
+			0 0 1em black,
+			0 0 0.2em black;
+		//background-color: rgba(255, 255, 255, 0.5);
+		//background-color: var(--color-gray-50);
+		backdrop-filter: blur(10px);
+		border-radius: var(--size-2);
+		padding: var(--size-4);
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-direction: row;
@@ -41,7 +54,6 @@
 
 	.logo-wrapper {
 		display: inline-block;
-		/* background-image: url('/assets/images/ios-mask-border-128.svg'); */
 		background-size: contain;
 		max-width: 64px;
 		max-height: 64px;
@@ -53,8 +65,6 @@
 
 	.logo {
 		border-radius: 10.5%;
-		/* 		-webkit-mask-image: url('/static/ios-mask.svg');
-		mask-image: url('/assets/images/ios-mask.svg'); */
 		-webkit-mask-size: cover;
 		mask-size: cover;
 		width: 100%;
