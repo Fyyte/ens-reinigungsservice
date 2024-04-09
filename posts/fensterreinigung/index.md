@@ -3,7 +3,7 @@ title: Fensterreinigung
 date: 2022-05-09
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Professionelle Fensterreinigung in Wien und Niederösterreich mit ENS
 

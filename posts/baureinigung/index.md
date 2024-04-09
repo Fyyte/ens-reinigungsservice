@@ -3,7 +3,7 @@ title: Baureinigung
 date: 2023-07-31
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Professionelle Baureinigung in Wien und Niederösterreich mit ENS
 

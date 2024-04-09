@@ -3,7 +3,7 @@ title: Steinreinigung
 date: 2023-07-31
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Steinreinigung in Wien und Niederösterreich: Ihr Experte ENS
 

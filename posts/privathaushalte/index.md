@@ -3,7 +3,7 @@ title: Privathaushalte
 date: 2023-07-31
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Professionelle Reinigungsdienste für Privathaushalte in Wien und Niederösterreich durch ENS
 

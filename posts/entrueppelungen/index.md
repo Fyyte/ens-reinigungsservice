@@ -3,7 +3,7 @@ title: Entrüppelungen
 date: 2023-07-31
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Professionelle Entrümpelung in Wien und Niederösterreich mit ENS
 

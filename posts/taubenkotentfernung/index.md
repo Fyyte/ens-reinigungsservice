@@ -3,7 +3,7 @@ title: Taubenkotentfernung
 date: 2023-07-31
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Professionelle Taubenkotentfernung in Wien und Niederösterreich durch ENS
 

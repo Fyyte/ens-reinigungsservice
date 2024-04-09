@@ -3,7 +3,7 @@ title: Stiegenhausreinigung
 date: 2023-07-31
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Stiegenhausreinigung in Wien und Niederösterreich durch ENS: Ihr Weg zu einem einladenden Eingangsbereich
 

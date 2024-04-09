@@ -3,7 +3,7 @@ title: Grundreinigung
 date: 2022-05-09
 ---
 
-![](./banner.png)
+![](./banner.webp)
 
 # Grundreinigung in Wien und Niederösterreich mit ENS: Ein Neuanfang für Ihre Räume
 
