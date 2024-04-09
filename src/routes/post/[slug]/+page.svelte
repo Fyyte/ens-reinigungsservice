@@ -70,10 +70,9 @@
 
 <style lang="postcss">
 	:global(.post-content img) {
-		max-width: 70%;
+		width: 350px;
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
 		margin-block: var(--size-12);
 
 		@media (max-width: 768px) {

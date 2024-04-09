@@ -11,6 +11,3 @@
 		{@html post.preview.html}
 	</div>
 </Card>
-
-<style>
-</style>
