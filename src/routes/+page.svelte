@@ -13,7 +13,7 @@
 	<div class="head">
 		<div>
 			<h1>Für ein makellos sauberes Büro</h1>
-			<h2>Büroreinigung in Wien</h2>
+			<h2>Büroreinigung in Wien und Niederösterreich</h2>
 		</div>
 		<img
 			src={vacuum}
@@ -23,9 +23,9 @@
 		/>
 	</div>
 	<p>
-		ENS bietet umfassende Büroreinigung in Wien, gewährleistet durch unser Team von
-		Reinigungsexperten. Wir legen Wert auf umweltschonende Mittel und maßgeschneiderte Lösungen, die
-		sich nach Ihren Bedürfnissen richten, um das Wohlbefinden Ihrer Kunden und Mitarbeiter zu
+		ENS bietet umfassende Büroreinigung in Wien und Niederösterreich, gewährleistet durch unser Team
+		von Reinigungsexperten. Wir legen Wert auf umweltschonende Mittel und maßgeschneiderte Lösungen,
+		die sich nach Ihren Bedürfnissen richten, um das Wohlbefinden Ihrer Kunden und Mitarbeiter zu
 		fördern.
 	</p>
 	<ul class="text-cards">
@@ -38,7 +38,7 @@
 			</p>
 		</li>
 		<li>
-			<strong>Ihr Komplettservice für Büroreinigung in Wien</strong>
+			<strong>Ihr Komplettservice für Büroreinigung in Wien und Niederösterreich</strong>
 			<p>
 				Von der Teppichreinigung bis zur Entrümpelung - unser umfassender Service deckt alle Aspekte
 				der Büroreinigung ab. Flexibilität und Streben nach höchster Qualität garantieren Ihre
