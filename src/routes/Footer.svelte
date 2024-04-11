@@ -48,7 +48,7 @@
 	}
 	footer {
 		padding: var(--size-10); /* Spacing around the content */
-		margin-bottom: var(--size-11);
+		margin-bottom: var(--size-14);
 		@media screen and (max-width: 768px) {
 			margin-bottom: var(--size-32);
 		}

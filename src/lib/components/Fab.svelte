@@ -32,12 +32,11 @@
 		transition: background-color 0.3s;
 		font: var(--text-lg); /* Adjust based on your design preference */
 		width: auto;
-		height: 60px;
+		min-height: 60px;
 		z-index: 1000;
 
 		@media screen and (max-width: 768px) {
 			transform: translateX(-83%);
-			height: auto;
 		}
 	}
 	.fab:hover {
