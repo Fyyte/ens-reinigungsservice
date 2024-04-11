@@ -47,7 +47,8 @@
 		font-weight: bold;
 	}
 	footer {
-		padding: 40px; /* Spacing around the content */
+		padding: var(--size-10); /* Spacing around the content */
+		margin-bottom: var(--size-11);
 	}
 
 	.footer-container {
