@@ -12,8 +12,8 @@
 <section class="content">
 	<div class="head">
 		<div>
-			<h1>Für ein makellos sauberes Büro</h1>
-			<h2>Büroreinigung in Wien und Niederösterreich</h2>
+			<h1>Für makellose Sauberkeit</h1>
+			<h2>Reinigung in Wien und Niederösterreich</h2>
 		</div>
 		<img
 			src={vacuum}

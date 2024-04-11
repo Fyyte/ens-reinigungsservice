@@ -1,5 +1,5 @@
 ---
-title: Entrüppelungen
+title: Entrümpelungen
 date: 2023-07-31
 ---
 
