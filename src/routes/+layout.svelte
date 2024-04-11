@@ -11,8 +11,13 @@
 	setAuthContext(data.user);
 </script>
 
-<Fab icon="📞">
-	<p><a href="tel:+436767898465">Jetzt kostenloses Beratungsgespräch vereinbaren!</a></p>
+<Fab>
+	<p>
+		<a href="tel:+436767898465"
+			>Jetzt <strong>maßgeschneidertes</strong> und <strong>unverbindliches</strong> Angebot machen lassen!
+			📞</a
+		>
+	</p>
 </Fab>
 
 <main>

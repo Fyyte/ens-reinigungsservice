@@ -4,11 +4,9 @@
 </script>
 
 <button class="fab" on:click={action}>
-	<div class="icon">
-		{#if icon}
-			{icon}
-		{/if}
-	</div>
+	{#if icon}
+		{icon}
+	{/if}
 	<slot />
 </button>
 
@@ -19,7 +17,7 @@
 	.fab {
 		position: fixed;
 		left: 50%;
-		bottom: 20px;
+		bottom: 14px;
 		transform: translateX(-50%); /* Center it horizontally */
 		background-color: #447991;
 		color: white;
@@ -34,10 +32,12 @@
 		transition: background-color 0.3s;
 		font: var(--text-lg); /* Adjust based on your design preference */
 		width: auto;
+		height: 60px;
 		z-index: 1000;
 
 		@media screen and (max-width: 768px) {
-			transform: translateX(-75%);
+			transform: translateX(-83%);
+			height: auto;
 		}
 	}
 	.fab:hover {
