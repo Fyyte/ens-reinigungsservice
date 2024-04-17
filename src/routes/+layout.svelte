@@ -5,10 +5,8 @@
 	import Header from './Header.svelte';
 	import '$lib/style/app.css';
 	import Spinner from '$lib/components/Spinner.svelte';
-	import { setAuthContext } from '$lib/auth-context';
 	import Fab from '$lib/components/Fab.svelte';
 	export let data;
-	setAuthContext(data.user);
 </script>
 
 <Fab>

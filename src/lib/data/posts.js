@@ -11,7 +11,6 @@ if (browser) {
 // Get all posts and add metadata
 export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: true }))
 	.map(([filepath, post]) => {
-		console.log(JSON.stringify(post));
 		const html = parse(post.default.render().html);
 		const preview = post.metadata.preview ? parse(post.metadata.preview) : html.querySelector('p');
 
@@ -34,7 +33,7 @@ export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: 
 						// offset by timezone so that the date is correct
 						addTimezoneOffset(new Date(post.metadata.date)),
 						'yyyy-MM-dd'
-				  )
+					)
 				: undefined,
 
 			preview: {
