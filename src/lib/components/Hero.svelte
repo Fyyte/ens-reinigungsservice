@@ -24,14 +24,10 @@
 		background-size: cover;
 	}
 	.header {
-		text-shadow:
-			1px 1px 2px black,
-			0 0 1em black,
-			0 0 0.2em black;
-		//background-color: rgba(255, 255, 255, 0.5);
-		//background-color: var(--color-gray-50);
-		backdrop-filter: blur(10px);
-		border-radius: var(--size-2);
+		background-color: var(--color-gray-50);
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45) inset;
+		//backdrop-filter: blur(10px);
+		border-radius: 10px;
 		padding: var(--size-4);
 		display: -ms-flexbox;
 		display: flex;
