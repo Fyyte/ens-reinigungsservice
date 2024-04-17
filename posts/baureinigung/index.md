@@ -23,7 +23,7 @@ Zusätzlich bieten wir spezialisierte Reinigungsdienste an, um alle Aspekte der 
 
 ### Erfahrung und Zuverlässigkeit
 
-Unser Team besteht aus erfahrenen und geschulten Reinigungsprofis. Dank unserer ISO 9001-Zertifizierung können Sie sich auf ein Höchstmaß an Qualität und Effizienz verlassen. ENS steht für zuverlässige Reinigungsdienste, die Ihre Baustelle jederzeit in bestem Licht erscheinen lassen.
+Unser Team besteht aus erfahrenen und geschulten Reinigungsprofis. ENS steht für zuverlässige Reinigungsdienste, die Ihre Baustelle jederzeit in bestem Licht erscheinen lassen.
 
 ### Flexibilität und Kundenorientierung
 
