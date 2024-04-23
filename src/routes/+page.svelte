@@ -1,6 +1,6 @@
 <script>
 	import PostsList from '$lib/components/PostsList.svelte';
-	import vacuum from '$lib/assets/vacuum.png';
+	import vacuum from '$lib/assets/vacuum.webp';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
