@@ -1,6 +1,6 @@
 <script>
-	import logo from '$lib/assets/logo_detailed.png';
-	import meister from '$lib/assets/meister.png';
+	import logo from '$lib/assets/logo_detailed.webp';
+	import meister from '$lib/assets/meister.webp';
 </script>
 
 <footer>

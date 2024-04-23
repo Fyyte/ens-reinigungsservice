@@ -3,7 +3,7 @@
 		name: 'ENS Reinigungsservice',
 		description: 'einfach nur sauber'
 	};
-	import logo from '$lib/assets/logo.png';
+	import logo from '$lib/assets/logo.webp';
 </script>
 
 <section class="content center">

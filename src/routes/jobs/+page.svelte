@@ -1,5 +1,5 @@
 <!-- <script>
-	import jobs from '$lib/assets/jobs.png';
+	import jobs from '$lib/assets/jobs.webp';
 </script> -->
 
 <section class="content">

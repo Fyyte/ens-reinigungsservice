@@ -1,5 +1,5 @@
 <script>
-	import hero from '$lib/assets/hero.png';
+	import hero from '$lib/assets/hero.webp';
 </script>
 
 <section class="content">

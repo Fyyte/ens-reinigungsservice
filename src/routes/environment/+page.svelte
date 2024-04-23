@@ -1,7 +1,7 @@
 <script>
-	import picnic from '$lib/assets/picnic.png';
-	import trash from '$lib/assets/trash.png';
-	import nature from '$lib/assets/nature.png';
+	import picnic from '$lib/assets/picnic.webp';
+	import trash from '$lib/assets/trash.webp';
+	import nature from '$lib/assets/nature.webp';
 </script>
 
 <section class="content">
