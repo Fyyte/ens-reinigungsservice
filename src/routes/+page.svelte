@@ -19,6 +19,7 @@
 			src={vacuum}
 			alt="Büroreinigung"
 			width="350px"
+			loading="lazy"
 			style="display: block; margin: auto;padding-top:1rem"
 		/>
 	</div>
