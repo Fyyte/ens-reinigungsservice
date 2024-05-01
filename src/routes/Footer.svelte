@@ -15,11 +15,7 @@
 			<p><a href="/privacy">Datenschutz</a></p>
 			<p><a href="/legal">Impressum</a></p>
 		</div>
-		<!-- 		<div class="footer-links">
-			<p><a href="/privacy">Datenschutz</a></p>
-			<p><a href="/legal">Impressum</a></p>
-		</div> -->
-		<div class="logo">
+		<div class="logo footer-logo">
 			<img src={logo} alt="logo" />
 			<img src={meister} alt="meister" />
 			<p>Made by <a href="https://dinweldik.com" target="_blank">dinweldik.com</a></p>
@@ -60,8 +56,11 @@
 	}
 
 	.footer-contact,
+	.footer-logo {
+		width: 80%; /* Each column takes up roughly half the footer */
+	}
 	.footer-links {
-		width: 33%; /* Each column takes up roughly half the footer */
+		width: 20%; /* Each column takes up roughly half the footer */
 	}
 
 	.footer-contact h3,
