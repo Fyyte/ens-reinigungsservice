@@ -41,7 +41,7 @@
 		white-space: wrap;
 		font: var(--text-xs);
 		padding: var(--size-2);
-		min-height: 220px;
+		min-height: 260px;
 		width: 100%;
 	}
 
