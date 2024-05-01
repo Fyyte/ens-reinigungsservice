@@ -20,11 +20,11 @@
 			</div>
 		{/if}
 
-		<!-- 		{#if $$slots.content}
+		{#if $$slots.content}
 			<div class="content">
 				<slot name="content" />
 			</div>
-		{/if} -->
+		{/if}
 	</a>
 </svelte:element>
 
@@ -38,9 +38,7 @@
 	}
 
 	.content {
-		overflow: hidden;
-		text-overflow: ellipsis; /* Improved handling for overflow text */
-		white-space: nowrap; /* Adjust to avoid unnecessary wrapping */
+		white-space: wrap;
 		font: var(--text-xs);
 		padding: var(--size-2);
 		min-height: 220px;
@@ -59,6 +57,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45) inset;
+		border-radius: 10px;
 	}
 
 	a {
