@@ -8,68 +8,74 @@
 
 <svelte:element this={as} class={[_class].join(' ')}>
 	<a {href} data-sveltekit-prefetch>
-		{#if $$slots.description}
-			<div class="img">
-				<slot name="description" />
+		{#if $$slots.title}
+			<div class="title">
+				<slot name="title" />
 			</div>
 		{/if}
 
-		{#if $$slots.title}
-			<div class="title">
-				{#if href}
-					<slot name="title" />
-				{:else}
-					<slot name="title" />
-				{/if}
+		{#if $$slots.thumbnail}
+			<div class="img">
+				<slot name="thumbnail" />
 			</div>
 		{/if}
+
+		<!-- 		{#if $$slots.content}
+			<div class="content">
+				<slot name="content" />
+			</div>
+		{/if} -->
 	</a>
 </svelte:element>
 
 <style>
-	.background-image .img {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		z-index: 1;
-		transition: transform 0.3s ease;
-	}
-
-	.overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-color: rgba(0, 0, 0, 0.5);
-		z-index: 2;
-	}
-
 	.title {
-		position: absolute;
-		width: 100%;
-		bottom: 10%;
-		left: 0;
-		text-align: center;
-		font-weight: bold;
-		z-index: 3;
+		font-size: 1.2em;
+		margin-bottom: var(--size-2);
 		color: var(--color-primary);
-		background-color: var(--color-gray-50);
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.content {
+		overflow: hidden;
+		text-overflow: ellipsis; /* Improved handling for overflow text */
+		white-space: nowrap; /* Adjust to avoid unnecessary wrapping */
+		font: var(--text-xs);
+		padding: var(--size-2);
+		min-height: 220px;
+		width: 100%;
+	}
+
+	.img img {
+		width: 100%;
+		height: auto; /* Changed to maintain image aspect ratio */
+		object-fit: cover;
+	}
+
+	.img {
+		height: 150px; /* Adjusted height */
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	a {
-		display: block;
-		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between; /* Adjust space distribution */
+		height: auto; /* Changed to auto to accommodate varying content sizes */
 		text-decoration: none;
 		color: inherit;
-		position: relative;
+		background: #f9f9f9;
+		border: 1px solid #ddd;
+		padding: var(--size-4);
+		border-radius: var(--size-2);
+		transition: transform 0.3s ease; /* Smooth scale transition */
 	}
 
 	a:hover {
-		-webkit-transform: scale(1.01);
 		transform: scale(1.01);
 	}
 </style>

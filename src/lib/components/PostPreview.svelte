@@ -6,7 +6,12 @@
 
 <Card href={`/post/${post.slug}`} data-sveltekit-prefetch>
 	<slot slot="title">{post.title}</slot>
-	<div slot="description">
+	<div slot="thumbnail">
 		{@html post.preview.html}
+	</div>
+	<div slot="content">
+		{#each post.headings.slice(0, -1) as heading}
+			<li>{heading.value}</li>
+		{/each}
 	</div>
 </Card>
