@@ -36,7 +36,14 @@
 		z-index: 1000;
 
 		@media screen and (max-width: 768px) {
-			transform: translateX(-83%);
+			transform: translateX(-50%);
+		}
+
+		@media screen and (max-width: 480px) {
+			transform: translateX(-100%);
+		}
+		@media screen and (max-width: 375px) {
+			transform: translateX(-95%);
 		}
 	}
 	.fab:hover {
