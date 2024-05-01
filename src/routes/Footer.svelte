@@ -9,7 +9,13 @@
 			<p class="bold">ENS Reinigungsservice e.U</p>
 			<p>Geschäftsführer: Zoran Andelkovic</p>
 			<p>Email: <a href="mailto:office@ens-reinigung.at">office@ens-reinigung.at</a></p>
-			<p>Telefon: +43 676 7898465</p>
+			<p>Telefon: <a href="tel:+43 676 7898465">+43 676 7898465</a></p>
+			<p><strong>Büro Öffnungszeiten:</strong></p>
+			<p><strong>Montag</strong> 08:30-16:30</p>
+			<p><strong>Dienstag</strong> 11:30-16:30</p>
+			<p><strong>Mittwoch</strong> 08:30-16:30</p>
+			<p><strong>Donnerstag</strong> 08:30-16:30</p>
+			<p><strong>Freitag</strong> 08:30-15:00</p>
 		</div>
 		<div class="footer-links">
 			<p><a href="/privacy">Datenschutz</a></p>
