@@ -1,9 +1,11 @@
 <script lang="ts">
+	import Banner from '$lib/components/Banner.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
 <header>
-	<Hero />
+	<Banner />
+	<section class="content center"><Hero /></section>
 	<nav>
 		<ul>
 			<li><a href="/">Startseite</a></li>
@@ -35,8 +37,14 @@
 				font-weight: var(--weight-bold);
 				text-decoration: none;
 			}
-
-			@media screen and (max-width: 768px) {
+		}
+		& > :nth-child(2) {
+			/* Specifically target the Hero component for custom styling if needed */
+			margin: 0 var(--size-8); /* Adds horizontal margin around the Hero component */
+		}
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+			& ul {
 				display: grid;
 				grid-template-columns: 1fr;
 				gap: var(--size-2);
