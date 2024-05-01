@@ -63,8 +63,9 @@
 
 	.footer-contact,
 	.footer-logo {
-		width: 80%; /* Each column takes up roughly half the footer */
+		width: 40%;
 	}
+
 	.footer-links {
 		width: 20%; /* Each column takes up roughly half the footer */
 	}
