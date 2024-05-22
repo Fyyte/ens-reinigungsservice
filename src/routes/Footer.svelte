@@ -7,15 +7,17 @@
 	<div class="footer-container">
 		<div class="footer-contact">
 			<p class="bold">ENS Reinigungsservice e.U</p>
-			<p>Geschäftsführer: Zoran Andelkovic</p>
+			<p>Geschäftsführer: Mst. Zoran Andelkovic</p>
 			<p>Email: <a href="mailto:office@ens-reinigung.at">office@ens-reinigung.at</a></p>
 			<p>Telefon: <a href="tel:+43 676 7898465">+43 676 7898465</a></p>
 			<p><strong>Büro Öffnungszeiten:</strong></p>
-			<p><strong>Montag</strong> 08:30-16:30</p>
-			<p><strong>Dienstag</strong> 11:30-16:30</p>
-			<p><strong>Mittwoch</strong> 08:30-16:30</p>
-			<p><strong>Donnerstag</strong> 08:30-16:30</p>
-			<p><strong>Freitag</strong> 08:30-15:00</p>
+			<div class="opening-hours">
+				<p><strong>Montag</strong> 08:30-16:30</p>
+				<p><strong>Dienstag</strong> 11:30-18:30</p>
+				<p><strong>Mittwoch</strong> 08:30-16:30</p>
+				<p><strong>Donnerstag</strong> 08:30-16:30</p>
+				<p><strong>Freitag</strong> 08:30-15:00</p>
+			</div>
 		</div>
 		<div class="footer-links">
 			<p><a href="/privacy">Datenschutz</a></p>
@@ -30,6 +32,37 @@
 </footer>
 
 <style>
+	.opening-hours {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.opening-hours p {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.opening-hours strong {
+		min-width: 300px;
+		display: inline-block;
+	}
+
+	@media (max-width: 900px) {
+		.opening-hours {
+			align-items: center;
+		}
+
+		.opening-hours p {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+
+		.opening-hours strong {
+			min-width: 0;
+			margin-bottom: 5px; /* Space between weekday and hours */
+		}
+	}
 	.logo {
 		text-align: center;
 		& img {
