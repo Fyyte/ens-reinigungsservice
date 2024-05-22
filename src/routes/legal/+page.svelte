@@ -1,7 +1,7 @@
 <section class="content">
 	<h1>Impressum</h1>
 	<h2>ENS Reinigungsservice e.U.</h2>
-	<p>Inhaber: Zoran Andelkovic</p>
+	<p>Inhaber: Mst. Zoran Andelkovic</p>
 	<p>
 		Adresse: Schillerstraße 19/9/1<br />
 		2351 Wiener Neudorf
@@ -15,7 +15,7 @@
 	<h2>Umsatzsteuer-ID</h2>
 	<p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: ATU80403458</p>
 	<h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
-	<p>Zoran Andelkovic</p>
+	<p>Mst. Zoran Andelkovic</p>
 	<h2>Haftungsausschluss</h2>
 	<p>
 		Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer
