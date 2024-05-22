@@ -15,3 +15,12 @@
 		{/each}
 	</div>
 </Card>
+
+<style>
+	li {
+		list-style-type: square;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+</style>

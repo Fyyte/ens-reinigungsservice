@@ -30,7 +30,7 @@
 
 <style>
 	.title {
-		font-size: 1.2em;
+		font-size: 1.5rem;
 		margin-bottom: var(--size-2);
 		color: var(--color-primary);
 		font-weight: bold;
@@ -38,10 +38,10 @@
 	}
 
 	.content {
-		white-space: wrap;
-		font: var(--text-xs);
+		margin-top: var(--size-2);
+		font: var(--text-md);
 		padding: var(--size-2);
-		min-height: 350px;
+		min-height: 210px;
 		width: 100%;
 	}
 
@@ -64,8 +64,7 @@
 	a {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between; /* Adjust space distribution */
-		height: auto; /* Changed to auto to accommodate varying content sizes */
+		justify-content: space-between;
 		text-decoration: none;
 		color: inherit;
 		background: #f9f9f9;
